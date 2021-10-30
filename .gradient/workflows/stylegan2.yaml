@@ -23,7 +23,7 @@ jobs:
         pip install Pillow==6.2.1
         apt update -y
         apt upgrade -y
-        ./ngrok authtoken 20CcnZ6zbDJFYk6UeawTeVfYaDt_7E8pGTvGr68J3XLqtAcxD
+        ifconfig
         cd /inputs/stylegan2
         python run_generator.py generate-images \
           --network=gdrive:networks/stylegan2-ffhq-config-f.pkl \
