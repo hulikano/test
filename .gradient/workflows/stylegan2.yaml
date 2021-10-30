@@ -44,10 +44,6 @@ context:
     github:
       ref: 637a5580e492c9a19a9637df92808f984a1fafd9
       url: https://github.com/hulikano/test
-name: amazonRDP
-
-on: workflow_dispatch
-
 jobs:
   build:
 
